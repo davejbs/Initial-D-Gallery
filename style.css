@@ -1,0 +1,62 @@
+html{
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+#menu{
+    display: flex;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    height: 3rem;
+    width: 11rem;
+}
+
+
+#menu-options{    
+    display: flex;
+    justify-items: space-around;
+    gap: 2rem;
+    margin-right: 4rem;
+}
+#menu-options > a{
+    color: white;
+}
+
+@media (max-width:1250px){
+    #menu{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 10rem;
+        align-items: center;
+        
+    }
+    #logo{
+        height: 5rem;
+        margin-top: 2rem;
+    }
+
+    #menu-options{
+        margin-right: 0 ;
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        
+    }
+    #menu-options > a{
+        margin-right: 0;
+
+    }
+}
+
