@@ -2,7 +2,7 @@ html{
     font-family: "Bitcount Grid Double", system-ui;
     font-optical-sizing: auto;
     font-weight: 900;
-    font-style: normal;
+    font-style: 15rem;
     font-variation-settings:
     "slnt" 0,
     "CRSV" 0.5,
@@ -34,6 +34,9 @@ html{
 }
 
 @media (max-width:1250px){
+
+
+
     #menu{
         display: flex;
         flex-direction: column;
@@ -43,7 +46,8 @@ html{
         
     }
     #logo{
-        height: 5rem;
+        height: 6rem;
+        width: auto;
         margin-top: 2rem;
     }
 
@@ -56,7 +60,7 @@ html{
     }
     #menu-options > a{
         margin-right: 0;
-
+        font-size: auto;
     }
 }
 
