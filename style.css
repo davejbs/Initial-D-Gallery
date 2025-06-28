@@ -1,3 +1,4 @@
+/*Home Page*/
 html{
     font-family: "Bitcount Grid Double", system-ui;
     font-optical-sizing: auto;
@@ -33,6 +34,7 @@ html{
     color: white;
 }
 
+
 @media (max-width:1250px){
 
 
@@ -64,3 +66,21 @@ html{
     }
 }
 
+/*Page Voitures*/
+
+#garage{
+    margin-top: 2rem;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(3, 2fr);
+    gap: 5px;
+}
+
+.voiture{
+    border: 2px solid black;
+}
+
+#ae86{
+    
+}
